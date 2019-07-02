@@ -6,6 +6,11 @@ To start new cluster with `helm` and `istio` installed run
 ./start.sh
 ```
 
+To export variables for working with kops run
+```sh
+source ./env.sh
+```
+
 ### Install addons (Istio with Kiali)
 To install addons first create cluster; then install addon.
 ```sh
