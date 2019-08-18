@@ -58,7 +58,7 @@ helm upgrade istio-init istio.io/istio-init \
     --namespace=istio-system \
     --wait
 
-sleep 20 # Waiting for CRDs to become ready
+sleep 30 # Waiting for CRDs to become ready
 helm upgrade istio istio.io/istio \
     --install \
     --namespace istio-system \
