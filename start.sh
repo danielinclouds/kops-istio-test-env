@@ -48,7 +48,7 @@ helm init --service-account tiller --wait
 # ----------------------------------------
 # Install Istio
 # ----------------------------------------
-ISTIO_VERSION=1.2.2
+ISTIO_VERSION=1.2.3
 
 helm repo add istio.io https://storage.googleapis.com/istio-release/releases/${ISTIO_VERSION}/charts/
 helm repo update
